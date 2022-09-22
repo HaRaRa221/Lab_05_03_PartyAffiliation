@@ -2,14 +2,11 @@ public class Main {
     public static <string> void main(String[] args)
     {
         String personalResponse = "";
-        String Democrat;
-        String Republican;
-        String Independent;
-        String Other;
+
 
         String menu = "D - Democrat R - Republican I - Independent O - Other";
         System.out.println(menu);
-        personalResponse = "O";
+        personalResponse = "D";
         personalResponse = personalResponse.toUpperCase();
 
         System.out.println("Simulating party affiliation: " + personalResponse);
